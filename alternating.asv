@@ -1,0 +1,44 @@
+% % clc
+% % close all
+% % clear all
+% % 
+% % %level 1 severity
+
+time=0:0.001:120
+time1=0:0.001:60
+time2=60.001:0.001:120
+trev=60.001:-0.001:0.001
+
+trev=transpose(trev)
+time=transpose(time)
+time1=transpose(time1)
+time2=transpose(time2)
+
+% % num=numel(time)
+% % freq=zeros(num,1)
+% % 
+% % freq1=50+(25000-50)/60.*time1
+% % freq2=50000-(25000-50)/60.*time2
+% % 
+% % freq=cat(1,freq1,freq2)
+% % 
+% % plot(time,freq)
+% % %vpp=1 V
+% % t=-0.0006:0.00000001:0.0006
+% % t=transpose(t)
+% % wf=0.5*sin(2*pi*t.*freq-pi)
+
+if time <=60
+    freq=50+(25000-50)/60*time
+else if time == 60
+        freq=25000
+    else 
+        freq=50000-(25000-50)/60*time
+    end
+
+
+plot(t,wf)
+plot(time,freq)
+
+
+
