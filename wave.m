@@ -1,10 +1,10 @@
-clc
-close all
-clear all
+% clc
+% close all
+% clear all
 
-t=0:0.000000001:0.0012
+t=0:0.00001:12
 t=transpose(t)
-tfall=0.000000001:0.000000001:0.000001
+tfall=0.00001:0.00001:0.01
 tfall=transpose(tfall)
 
 sample=numel(t)
@@ -14,7 +14,7 @@ v24=zeros(sample,2)
 
 a=ones(1000001,1)
 c=ones(8000,1)
-d=1/(-0.0010+0.001001).*tfall
+d=1/(-10+0+10.01).*tfall
 e=ones(190000,1)
 
 v12_1=12*a

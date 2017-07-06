@@ -2,7 +2,7 @@
 % close all
 % clear all
 
-t=0:0.000000001:0.0350;
+t=0:0.00001:350;
 t=transpose(t);
 
 waveform=zeros(numel(t),2)
@@ -11,7 +11,7 @@ waveform(:,1)=t
 tt=1:1:500000;
 tt=transpose(tt);
 
-tfall=0.000000001:0.000000001:0.000001
+tfall=0.00001:0.00001:0.01
 tfall=transpose(tfall)
 
 volt=zeros(3*numel(tt),20);
@@ -24,7 +24,7 @@ V=12; %supply voltage
     
 a=ones(500000,1)
 c=ones(498000,1)
-d=1/(-0.0010+0.001001).*tfall
+d=1/(-10+10.01).*tfall
 % e=ones(190000,1)
 
 for i=1:20
@@ -41,7 +41,9 @@ end
 
 init=V*ones(1500001,1)
 fin=V*ones(3500000,1)
-overall=cat(1,init,volt(:,1),volt(:,2),volt(:,3),volt(:,4),volt(:,5),volt(:,6),volt(:,7),volt(:,8),volt(:,9),volt(:,10),volt(:,11),volt(:,12),volt(:,13),volt(:,14),volt(:,15),volt(:,16),volt(:,17),volt(:,18),volt(:,19),volt(:,20),fin)
-waveform(:,2)=overall
+middle=cat(1,volt(:,1),volt(:,2),volt(:,3),volt(:,4),volt(:,5),volt(:,6),volt(:,7),volt(:,8),volt(:,9),volt(:,10),volt(:,11),volt(:,12),volt(:,13),volt(:,14),volt(:,15),volt(:,16),volt(:,17),volt(:,18),volt(:,19),volt(:,20))
+clear volt
+waveform(:,2)=cat(1,init,middle,fin)
 
-plot(waveform)
+% waveform(:,2)=2*waveform(:,2)
+% plot(waveform(:,2))
