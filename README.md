@@ -4,3 +4,5 @@ work done during summer practice
 * dc/dc converter
 * iso16750-2 test waveforms
 * spwm 
+
+ref: http://www.ti.com/lit/ds/symlink/lm5118.pdf 
