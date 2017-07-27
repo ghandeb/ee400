@@ -5,4 +5,6 @@ work done during summer practice
 * iso16750-2 test waveforms
 * spwm 
 
-ref: http://www.ti.com/lit/ds/symlink/lm5118.pdf 
+ref: 
+* http://www.ti.com/lit/ds/symlink/lm5118.pdf 
+* http://cds.linear.com/docs/en/datasheet/8390f.pdf
