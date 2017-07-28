@@ -8,3 +8,4 @@ work done during summer practice
 ref: 
 * http://www.ti.com/lit/ds/symlink/lm5118.pdf 
 * http://cds.linear.com/docs/en/datasheet/8390f.pdf
+* http://www.ti.com/lit/an/slta055/slta055.pdf
