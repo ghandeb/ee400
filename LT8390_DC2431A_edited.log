@@ -1,0 +1,22 @@
+Circuit: * C:\Users\u19d36\Desktop\New folder\LT8390_DC2431A_edited.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Aug 04 13:35:17 2017
+Total elapsed time: 174.235 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3739601
+traniter = 3739577
+tranpoints = 815333
+accept = 589081
+rejected = 226252
+matrix size = 203
+fillins = 43
+solver = Normal
+Thread vector: 37.4/29.1[4] 28.4/10.4[4] 5.8/3.3[4] 0.9/1.4[1]  2592/500
+Matrix Compiler1: 7.97 KB object code size  4.4/2.7/[1.9]
+Matrix Compiler2: 12.01 KB object code size  1.9/3.3/[1.6]
+
