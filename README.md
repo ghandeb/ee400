@@ -1,12 +1,12 @@
 # ee400
 work done during summer practice
 
-[x] dc/dc converter design
-[ ] pcb design
-[x] iso16750-2 test waveforms
-[x] spwm
-[x] tests of the HIL-like simulation device
-[ ] thermal analysis and efficiency calculation of an e-drive system (ongoing)
+- [x] dc/dc converter design
+- [ ] pcb design
+- [x] iso16750-2 test waveforms
+- [x] spwm
+- [x] tests of the HIL-like simulation device
+- [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing)
 
 ### references and datasheets: 
 * [Reference design and chip](http://www.ti.com/lit/ds/symlink/lm5118.pdf) 
