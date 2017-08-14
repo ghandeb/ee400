@@ -6,7 +6,7 @@ work done during summer practice
 - [x] iso16750-2 test waveforms
 - [x] spwm
 - [x] tests of the HIL-like simulation device
-- [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing)
+- [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing) (confidential info.)
 
 ### references and datasheets: 
 * [Reference design and chip](http://www.ti.com/lit/ds/symlink/lm5118.pdf) 
@@ -17,3 +17,6 @@ work done during summer practice
 * [Boost Side Switches Datasheet](https://www.infineon.com/dgdl/Infineon-BSC009NE2LS5I-DS-v02_00-EN.pdf?fileId=5546d4624bcaebcf014c09a38586234e)
 * [Thermal modelling app note 1](https://drive.google.com/open?id=0B_ioIw2-WsF5Z2RaNTREallSNU0)
 * [Thermal modelling app note 2](https://drive.google.com/open?id=0B_ioIw2-WsF5bnNVV0NmQVdMLW8)
+* [DC Link Cap. Loss Ref. 1](http://ieeexplore.ieee.org/document/5637820/)
+* [DC Link Cap. Loss Ref. 2](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.5343&rep=rep1&type=pdf)
+
