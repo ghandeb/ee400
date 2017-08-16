@@ -7,6 +7,7 @@ work done during summer practice
 - [x] spwm
 - [x] tests of the HIL-like simulation device
 - [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing) (confidential info.)
+- [ ] SP report (ongoing)
 
 ### references and datasheets: 
 * [Reference design and chip](http://www.ti.com/lit/ds/symlink/lm5118.pdf) 
