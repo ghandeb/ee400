@@ -45,11 +45,11 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -73,7 +73,75 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=A3_AVL.PCBDOC
+DocumentPath=PcbLib.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TNATCTAK
+
+[Document4]
+DocumentPath=SchLib.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PSCYFRIU
+
+[Document5]
+DocumentPath=ALTIUM-WE-HCF-rev17a.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=6_36_DCDC.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UUKVWOUC
+
+[Document7]
+DocumentPath=DCDC.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -98,80 +166,80 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=Customer
-Value=Customer
+Name=SchematicState
+Value=in work/draft/released
 
 [Parameter2]
-Name=DesignRevision
+Name=SchematicRevision
 Value=1.1
 
 [Parameter3]
-Name=PCBApprovalDate
-Value=02.12.2014
+Name=SchematicDrawNo
+Value=0503.00001
 
 [Parameter4]
-Name=PCBApprovedBy
-Value=P. Approver
+Name=SchematicDrawnDate
+Value=21.08.2017
 
 [Parameter5]
-Name=PCBAssembledNo
-Value=0500.00001
+Name=SchematicDrawnBy
+Value=G. H. Bayazit
 
 [Parameter6]
-Name=PCBDrawnBy
-Value=P. CB
+Name=SchematicApprovedBy
+Value=A. Prover
 
 [Parameter7]
-Name=PCBDrawnDate
-Value=30.11.2014
+Name=SchematicApprovalDate
+Value=
 
 [Parameter8]
-Name=PCBRevision
-Value=1.1
+Name=ProjectTitle
+Value=DC-DC Converter
 
 [Parameter9]
-Name=PCBState
-Value=in work/draft/released
+Name=ProjectSample
+Value=A
 
 [Parameter10]
 Name=PCBUnassembledNo
 Value=0507.00001
 
 [Parameter11]
-Name=ProjectSample
-Value=A
+Name=PCBState
+Value=in work/draft/released
 
 [Parameter12]
-Name=ProjectTitle
-Value=Project Title
+Name=PCBRevision
+Value=1.1
 
 [Parameter13]
-Name=SchematicApprovalDate
-Value=02.12.2014
+Name=PCBDrawnDate
+Value=30.11.2014
 
 [Parameter14]
-Name=SchematicApprovedBy
-Value=A. Prover
+Name=PCBDrawnBy
+Value=P. CB
 
 [Parameter15]
-Name=SchematicDrawnBy
-Value=D. Rawer
+Name=PCBAssembledNo
+Value=0500.00001
 
 [Parameter16]
-Name=SchematicDrawnDate
-Value=27.11.2014
+Name=PCBApprovedBy
+Value=P. Approver
 
 [Parameter17]
-Name=SchematicDrawNo
-Value=0503.00001
+Name=PCBApprovalDate
+Value=02.12.2014
 
 [Parameter18]
-Name=SchematicRevision
+Name=DesignRevision
 Value=1.1
 
 [Parameter19]
-Name=SchematicState
-Value=in work/draft/released
+Name=Customer
+Value=Customer
 
 [Configuration1]
 Name=Default Configuration
@@ -315,7 +383,21 @@ OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical18|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical17|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Print
 OutputDocumentPath2=
@@ -1073,7 +1155,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
@@ -1082,6 +1164,14 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=TOP.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
 
 [PrjClassGen]
 CompClassManualEnabled=0
