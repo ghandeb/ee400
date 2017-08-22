@@ -2,7 +2,7 @@
 work done during summer practice
 
 - [x] dc/dc converter design
-- [ ] pcb design
+- [ ] pcb design (ongoing)
 - [x] iso16750-2 test waveforms
 - [x] spwm
 - [x] tests of the HIL-like simulation device
@@ -20,4 +20,7 @@ work done during summer practice
 * [Thermal modelling app note 2](https://drive.google.com/open?id=0B_ioIw2-WsF5bnNVV0NmQVdMLW8)
 * [DC Link Cap. Loss Ref. 1](http://ieeexplore.ieee.org/document/5637820/)
 * [DC Link Cap. Loss Ref. 2](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.5343&rep=rep1&type=pdf)
+* [PCB layout considerations 1](http://cds.linear.com/docs/en/application-note/an139f.pdf)
+* [PCB layout considerations 2](http://www.linear.com/solutions/1821)
+* [PCB layout considerations 3](http://cds.linear.com/docs/en/application-note/an136f.pdf)
 
