@@ -8,6 +8,8 @@ work done during summer practice
 - [x] tests of the HIL-like simulation device
 - [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing) (confidential info.)
 - [ ] SP report (ongoing)
+- [ ] presentation
+- [ ] boost converter design (ongoing)
 
 ### references and datasheets: 
 * [Reference design and chip](http://www.ti.com/lit/ds/symlink/lm5118.pdf) 
@@ -23,4 +25,5 @@ work done during summer practice
 * [PCB layout considerations 1](http://cds.linear.com/docs/en/application-note/an139f.pdf)
 * [PCB layout considerations 2](http://www.linear.com/solutions/1821)
 * [PCB layout considerations 3](http://cds.linear.com/docs/en/application-note/an136f.pdf)
+* [TPS43060RTER](http://www.ti.com/lit/ds/symlink/tps43060.pdf)
 
