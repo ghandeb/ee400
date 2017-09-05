@@ -2,13 +2,13 @@
 work done during summer practice
 
 - [x] dc/dc converter design
-- [ ] pcb design (ongoing)
+- [x] pcb design (review needed)
 - [x] iso16750-2 test waveforms
 - [x] spwm
 - [x] tests of the HIL-like simulation device
-- [ ] thermal analysis and efficiency calculation of an e-drive system (ongoing) (confidential info.)
+- [x] thermal analysis and efficiency calculation of an e-drive system (ongoing) (confidential info.)
 - [ ] SP report (ongoing)
-- [ ] presentation
+- [ ] presentation (ongoing)
 - [ ] boost converter design (ongoing)
 
 ### references and datasheets: 
@@ -26,4 +26,6 @@ work done during summer practice
 * [PCB layout considerations 2](http://www.linear.com/solutions/1821)
 * [PCB layout considerations 3](http://cds.linear.com/docs/en/application-note/an136f.pdf)
 * [TPS43060RTER](http://www.ti.com/lit/ds/symlink/tps43060.pdf)
+* [Report example](http://ethesis.nitrkl.ac.in/4811/1/109EE0612.pdf)
+* [Purpose of using mosfets instead of freewheeling diodes](http://www.digikey.co.uk/Web%20Export/Supplier%20Content/Semtech_600/PDF/Semtech_synchronous-vs-asynchronous-buck-regulators.pdf?redirected=1)
 
